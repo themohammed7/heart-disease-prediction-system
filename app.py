@@ -693,14 +693,13 @@ elif page == "📊  Analysis":
         # ── RESULT BADGE ──
         if pred == 1:
             st.markdown(
-                f'<div class="risk-badge-high">⚠️ HIGH CARDIAC RISK — '
-                f'{prob:.1f}% Probability</div>',
+                f'<div class="risk-badge-high">⚠️ HIGH CARDIAC RISK </div>',
                 unsafe_allow_html=True,
             )
         else:
             st.markdown(
-                f'<div class="risk-badge-low">✅ LOW CARDIAC RISK — '
-                f'{100 - prob:.1f}% Confidence</div>',
+                f'<div class="risk-badge-low">✅ LOW CARDIAC RISK 
+                </div>',
                 unsafe_allow_html=True,
             )
 
